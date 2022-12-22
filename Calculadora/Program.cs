@@ -16,7 +16,7 @@ namespace Calculadora
                 Console.WriteLine("1-Soma\n2-Subtração\n3-Divisão\n4-Multiplicação\n5-Potência\n6-Raiz\n7-Sair");
 
                 Menu opcao = (Menu)int.Parse(Console.ReadLine());
-
+                            
                 switch (opcao)
                 {
                     case Menu.Soma:
