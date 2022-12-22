@@ -1,0 +1,15 @@
+/home/treviit/Projects/C#/CMD/bin/Debug/net7.0/CMD
+/home/treviit/Projects/C#/CMD/bin/Debug/net7.0/CMD.deps.json
+/home/treviit/Projects/C#/CMD/bin/Debug/net7.0/CMD.runtimeconfig.json
+/home/treviit/Projects/C#/CMD/bin/Debug/net7.0/CMD.dll
+/home/treviit/Projects/C#/CMD/bin/Debug/net7.0/CMD.pdb
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/CMD.csproj.AssemblyReference.cache
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/CMD.GeneratedMSBuildEditorConfig.editorconfig
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/CMD.AssemblyInfoInputs.cache
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/CMD.AssemblyInfo.cs
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/CMD.csproj.CoreCompileInputs.cache
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/CMD.dll
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/refint/CMD.dll
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/CMD.pdb
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/CMD.genruntimeconfig.cache
+/home/treviit/Projects/C#/CMD/obj/Debug/net7.0/ref/CMD.dll
