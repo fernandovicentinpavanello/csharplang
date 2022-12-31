@@ -29,7 +29,11 @@ namespace Gestor
 
         public void Exibir()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Nome: {nome}");
+            Console.WriteLine($"Preço: {preco}");
+            Console.WriteLine($"Frete: {frete}");
+            Console.WriteLine($"Estoque: {estoque}");
+            Console.WriteLine("==============================");
         }
     }
 }

@@ -10,11 +10,11 @@ namespace Gestor
         public string? autor;
         private int vagas;
 
-        public Curso(string nome, float preco, string autor)
+        public Curso(string nome, string autor, float preco)
         {
             this.nome = nome;
-            this.preco = preco;
             this.autor = autor;
+            this.preco = preco;
         }
 
         public void AdicionarEntrada()
@@ -29,7 +29,11 @@ namespace Gestor
 
         public void Exibir()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Nome: {nome}");
+            Console.WriteLine($"Autor: {autor}");
+            Console.WriteLine($"Preço: {preco}");
+            Console.WriteLine($"Vagas restantes: {vagas}");
+            Console.WriteLine("==============================");
         }
     }
 }
