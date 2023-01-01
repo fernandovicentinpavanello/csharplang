@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Gestor
 {
+    [System.Serializable]
     class ProdutoFisico : Produto, IEstoque
     {
         public float frete;

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Gestor
 {
+    [System.Serializable]
     abstract class Produto
     {
         public string? nome;

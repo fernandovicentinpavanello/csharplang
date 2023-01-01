@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Gestor
 {
+    [System.Serializable]
     class Ebook : Produto, IEstoque
     {
         public string? autor;

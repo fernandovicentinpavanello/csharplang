@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading.Tasks;
 
 namespace Gestor
@@ -111,6 +112,18 @@ namespace Gestor
 
             Curso cs = new Curso(nome, autor, preco);
             produtos.Add(cs);
+            Salvar();
+        }
+
+
+        static void Salvar()
+        {
+               FileStream stream = new FileStream("produtos.dat", FileMode.OpenOrCreate);
+               BinaryFormatter encoder = new BinaryFormatter();
+
+               encoder.Serialize(stream, produtos);
+
+               stream.Close();
         }
     }
 }
