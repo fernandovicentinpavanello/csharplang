@@ -30,7 +30,12 @@ namespace Gestor
 
         public void AdicionarSaida()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Remover vagas no curso {nome}");
+            Console.WriteLine("Digite a Qtd. de vagas que você quer remover: ");
+            int entrada = int.Parse(Console.ReadLine());
+            vagas -= entrada;
+            Console.WriteLine("Saída registrada.");
+            Console.ReadLine();
         }
 
         public void Exibir()

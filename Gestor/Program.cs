@@ -41,8 +41,10 @@ namespace Gestor
                             Entrada();
                             break;
                         case Menu.Saída:
+                            Saida();
                             break;
                         case Menu.Sair:
+                            escolheuSair = true;
                             break;
                     }
                 }
@@ -90,6 +92,19 @@ namespace Gestor
             if (id >= 0 && id < produtos.Count)
             {   
                 produtos[id].AdicionarEntrada();
+                Salvar();
+            }
+        }
+
+
+        static void Saida()
+        {
+            Listagem();
+            Console.WriteLine("Digite o ID do produto que você quer dar saída: ");
+            int id = int.Parse(Console.ReadLine());
+            if (id >= 0 && id < produtos.Count)
+            {
+                produtos[id].AdicionarSaida();
                 Salvar();
             }
         }

@@ -30,7 +30,12 @@ namespace Gestor
 
         public void AdicionarSaida()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Adicionar saída no estoque do produto {nome}");
+            Console.WriteLine("Digite a Qtd. que você quer remover: ");
+            int entrada = int.Parse(Console.ReadLine());
+            estoque -= entrada;
+            Console.WriteLine("Saida registrada.");
+            Console.ReadLine();
         }
 
         public void Exibir()

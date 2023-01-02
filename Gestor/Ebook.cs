@@ -26,7 +26,12 @@ namespace Gestor
 
         public void AdicionarSaida()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Remover vendas no ebook {nome}");
+            Console.WriteLine("Digite a Qtd. de vendas que você quer adicionar: ");
+            int entrada = int.Parse(Console.ReadLine());
+            vendas += entrada;
+            Console.WriteLine("Saída registrada.");
+            Console.ReadLine();
         }
 
         public void Exibir()
