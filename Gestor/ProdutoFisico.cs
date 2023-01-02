@@ -20,7 +20,12 @@ namespace Gestor
 
         public void AdicionarEntrada()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Adicionar entrada no estoque do produto {nome}");
+            Console.WriteLine("Digite a Qtd. que você quer dar entrada: ");
+            int entrada = int.Parse(Console.ReadLine());
+            estoque += entrada;
+            Console.WriteLine("Entrada registrada.");
+            Console.ReadLine();
         }
 
         public void AdicionarSaida()

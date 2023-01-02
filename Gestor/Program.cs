@@ -38,6 +38,7 @@ namespace Gestor
                             Remover();
                             break;
                         case Menu.Entrada:
+                            Entrada();
                             break;
                         case Menu.Saída:
                             break;
@@ -69,12 +70,26 @@ namespace Gestor
 
 
         static void Remover()
-        {
+        {   
+            Listagem();
             Console.WriteLine("Digite o ID do elemento que você quer remover:");
             int id = int.Parse(Console.ReadLine());
             if (id >= 0 && id < produtos.Count)
             {   
                 produtos.RemoveAt(id);
+                Salvar();
+            }
+        }
+
+
+        static void Entrada()
+        {
+            Listagem();
+            Console.WriteLine("Digite o ID do elemento que você quer dar entrada: ");
+            int id = int.Parse(Console.ReadLine());
+            if (id >= 0 && id < produtos.Count)
+            {   
+                produtos[id].AdicionarEntrada();
                 Salvar();
             }
         }

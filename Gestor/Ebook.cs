@@ -20,7 +20,8 @@ namespace Gestor
 
         public void AdicionarEntrada()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Não é possível dar entrada no estoque de um E-book, pois é um Produto Digital.");
+            Console.ReadLine();
         }
 
         public void AdicionarSaida()
